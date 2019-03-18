@@ -8,10 +8,13 @@
 
 .Title {
   padding: 3rem 0 6rem;
+  text-align: center;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  color: purple;
 }
 
 .button {
@@ -24,4 +27,8 @@ h1 {
 
 .button:hover {
   opacity: 0.5;
+}
+
+.results {
+  color: black;
 }
