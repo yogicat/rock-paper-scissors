@@ -13,20 +13,28 @@
   <div class="container">
     <div class="Title">
       <h1>Rock Paper Scissor</h1>
-      <p>Click to choose your weapon!</p>
+      <button id="Reset" class="button">reset</button>
+      <div id="Results" class="results">Click to choose your weapon!</div>
     </div>
     <div id="Playground">
-      <button id="Rock" class="button button-clear" data-selection="Rock">✊
-        <small>rock</small>
-      </button>
-      <button id="Paper" class="button button-clear" data-selection="Paper">🖐
-        <small>paper</small>
-      </button>
-      <button id="Scissor" class="button button-clear" data-selection="Scissor">✌
-        <small>scissor</small>
-      </button>
+      <div class="you">
+        <p>You</p>
+        <div>
+          <button id="Rock" class="button button-clear" data-selection="Rock">✊
+          </button>
+          <button id="Paper" class="button button-clear" data-selection="Paper">🖐
+          </button>
+          <button id="Scissor" class="button button-clear" data-selection="Scissor">✌
+          </button>
+        </div>
+      </div>
+      <p class="vs"> vs </p>
+      <div class="computer">
+        <p>Computer</p>
+        <p class="computer-result" id="Computer">❓</p>
+      </div>
+      </div>
     </div>
-    <div id="Results" class="results"></div>
   </div>
 <script src="./script.js"></script>
 </body>

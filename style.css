@@ -17,12 +17,10 @@ h1 {
   color: purple;
 }
 
-.button {
+#Rock,
+#Paper,
+#Scissor {
   font-size: 4rem;
-}
-
-.button small {
-  font-size: 1.4rem;
 }
 
 .button:hover {
@@ -31,4 +29,26 @@ h1 {
 
 .results {
   color: black;
+}
+
+.computer-result {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.vs {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#Playground {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.you,
+.computer {
+  width: 360px;
+  text-align: center;
 }
