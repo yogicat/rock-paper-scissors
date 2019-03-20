@@ -3,11 +3,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
 }
 
 .Title {
-  padding: 3rem 0 6rem;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -29,11 +28,14 @@ h1 {
 
 .results {
   color: black;
+  font-size: 2.4rem;
+  margin: 1rem 0;
 }
 
 .computer-result {
   font-size: 4rem;
   text-align: center;
+  margin: 0;
 }
 
 .vs {
@@ -44,7 +46,9 @@ h1 {
 #Playground {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .you,
